@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Epsilon Documentation',
   tagline: 'Documenting is the best way to learn',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://EpsilonCoder.github.io',
+  baseUrl: '/Epsilon-Documentation',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'EpsilonCoder', // Usually your GitHub org/user name.
+  projectName: 'Epsilon-Documentation', // Usually your repo name.
 
   presets: [
     [
@@ -97,7 +97,6 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         additionalLanguages: ['php']
-
       },
     }),
 };
